@@ -7,19 +7,33 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8500024A260368B8003B1821 /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85000249260368B8003B1821 /* Location.swift */; };
+		8500024D26036DA4003B1821 /* Locations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8500024C26036DA4003B1821 /* Locations.swift */; };
+		8500025026038F4B003B1821 /* WorldView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8500024F26038F4B003B1821 /* WorldView.swift */; };
+		8500025426039786003B1821 /* Tip.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8500025326039786003B1821 /* Tip.swift */; };
+		85000258260398FE003B1821 /* TipView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85000257260398FE003B1821 /* TipView.swift */; };
 		8509E3CD260175E000D2701D /* testerinoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8509E3CC260175E000D2701D /* testerinoApp.swift */; };
 		8509E3CF260175E000D2701D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8509E3CE260175E000D2701D /* ContentView.swift */; };
 		8509E3D1260175E100D2701D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8509E3D0260175E100D2701D /* Assets.xcassets */; };
 		8509E3D4260175E100D2701D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8509E3D3260175E100D2701D /* Preview Assets.xcassets */; };
+		8509E3DE260178C800D2701D /* locations.json in Resources */ = {isa = PBXBuildFile; fileRef = 8509E3DC260178C800D2701D /* locations.json */; };
+		8509E3DF260178C800D2701D /* tips.json in Resources */ = {isa = PBXBuildFile; fileRef = 8509E3DD260178C800D2701D /* tips.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		85000249260368B8003B1821 /* Location.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
+		8500024C26036DA4003B1821 /* Locations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Locations.swift; sourceTree = "<group>"; };
+		8500024F26038F4B003B1821 /* WorldView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorldView.swift; sourceTree = "<group>"; };
+		8500025326039786003B1821 /* Tip.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tip.swift; sourceTree = "<group>"; };
+		85000257260398FE003B1821 /* TipView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TipView.swift; sourceTree = "<group>"; };
 		8509E3C9260175E000D2701D /* testerino.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = testerino.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8509E3CC260175E000D2701D /* testerinoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = testerinoApp.swift; sourceTree = "<group>"; };
 		8509E3CE260175E000D2701D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		8509E3D0260175E100D2701D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8509E3D3260175E100D2701D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		8509E3D5260175E100D2701D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8509E3DC260178C800D2701D /* locations.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = locations.json; sourceTree = "<group>"; };
+		8509E3DD260178C800D2701D /* tips.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = tips.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,9 +67,16 @@
 			isa = PBXGroup;
 			children = (
 				8509E3CC260175E000D2701D /* testerinoApp.swift */,
+				8500024F26038F4B003B1821 /* WorldView.swift */,
+				8500025326039786003B1821 /* Tip.swift */,
+				85000257260398FE003B1821 /* TipView.swift */,
 				8509E3CE260175E000D2701D /* ContentView.swift */,
+				8500024C26036DA4003B1821 /* Locations.swift */,
+				85000249260368B8003B1821 /* Location.swift */,
 				8509E3D0260175E100D2701D /* Assets.xcassets */,
 				8509E3D5260175E100D2701D /* Info.plist */,
+				8509E3DC260178C800D2701D /* locations.json */,
+				8509E3DD260178C800D2701D /* tips.json */,
 				8509E3D2260175E100D2701D /* Preview Content */,
 			);
 			path = testerino;
@@ -127,6 +148,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				8509E3D4260175E100D2701D /* Preview Assets.xcassets in Resources */,
+				8509E3DF260178C800D2701D /* tips.json in Resources */,
+				8509E3DE260178C800D2701D /* locations.json in Resources */,
 				8509E3D1260175E100D2701D /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -138,7 +161,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				85000258260398FE003B1821 /* TipView.swift in Sources */,
 				8509E3CF260175E000D2701D /* ContentView.swift in Sources */,
+				8500024A260368B8003B1821 /* Location.swift in Sources */,
+				8500025026038F4B003B1821 /* WorldView.swift in Sources */,
+				8500025426039786003B1821 /* Tip.swift in Sources */,
+				8500024D26036DA4003B1821 /* Locations.swift in Sources */,
 				8509E3CD260175E000D2701D /* testerinoApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
